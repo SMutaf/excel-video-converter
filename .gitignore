@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Uretilen ciktilar
+out/
+*.xlsm
+*.xlsx
+~$*
+
+# PyInstaller
+build/
+dist/
+*.spec

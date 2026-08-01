@@ -1,0 +1,7 @@
+-r requirements.txt
+
+pytest==9.1.1
+
+# Excel COM (Component Object Model) - only needed by
+# scripts/build_vba_project.py and scripts/benchmark.py
+pywin32==312
